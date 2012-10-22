@@ -10,5 +10,5 @@
     $page_info = $fmakeSiteModule->getInfo();
 	//$_SESSION['code'][$page_info['id']] = md5($obj->getLine());
 	$_SESSION['code'] = md5($obj->getLine()); 
-	//printAr($_SESSION);
+	//printAr($_SESSION); 
 ?>
