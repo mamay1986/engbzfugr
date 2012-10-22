@@ -1,0 +1,57 @@
+/* -------------------- reset defaults -------------------- */
+* { margin: 0; padding: 0; }
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, sub, sup, strong, em, ins, dl, dt, dd, ol, ul, li, form, label, table, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; border-width: 0; outline: 0; vertical-align: baseline; background: transparent; }
+html, body { width: 100%; height: 100%; }
+body { font: 12px 'Arial'; color: #000000; background-color: #ffffff; text-align: left; position: re}
+table { border-collapse: collapse; border-spacing: 0; border-width: 0; }
+caption, td, th { vertical-align: top; }
+dl, ul, ol { margin: 0; padding: 0; list-style: none; }
+img { border: 0; border-width: 0; vertical-align: top; }
+
+ins { text-decoration: underline; }
+del { text-decoration: line-through; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+i { font-style: normal; }
+
+input, button { overflow: visible; }
+input, button, select { vertical-align: middle; }
+textarea { vertical-align: top; height: 72px; font: 12px/14px 'Arial'; color: #555; padding: 1px 2px; border-width: 1px; }
+select { font: 12px/18px 'Arial';  }
+select option { font: 12px/18px 'Arial';  }
+input.text { font: 12px/14px 'Arial'; color: #555; padding: 1px 2px; border: 1px #808080 solid; }
+input.file { width: 100%; height: 22px; }
+
+blockquote { quotes: none; }
+blockquote:before, blockquote:after { content: ""; }
+q { quotes: '\00AB' '\00BB' '\201E' '\201C'; }
+q:before { content: '\00AB'; }
+q:after { content: '\00BB'; }
+q q:before { content: '\201E'; }
+q q:after { content: '\201C'; }
+
+/* ----- global ----- */
+a { color: #1453a2; text-decoration: underline; font: 12px 'Arial';}
+a:hover { text-decoration: none;}
+h1 { font: 24px/28px 'Arial'; color: #4d4948;margin: 0 0 10px 0; }
+h2 { font: 22px/24px 'Arial'; color: #4d4948;margin: 0 0 10px 0; }
+h3 { font: 18px/20px 'Arial'; color: #4d4948;}
+a:hover{ text-decoration: none; }
+
+/* ----- clear ----- */
+.cl { clear: both; height: 0; overflow: hidden; }
+.clf:after { content: ""; display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; }
+.nobg { background: none !important; }
+.nobd { border: 0 !important; }
+.nomt { margin-top: 0 !important; }
+.nom { margin: 0 !important; }
+.mop { padding: 0 !important; }
+.mopt { padding-top: 0 !important; }
+.posrel {position: relative;}
+/*--------------COLOR----------------------*/
+.grey{color:#494949;}
+.white{color: #ffffff;}
+.black{color:#000000;}
+.flr{float: right;}
+.fll{float: left;}
+.grey_svetlii {color: #0AD785 !important;}

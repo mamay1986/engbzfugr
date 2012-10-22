@@ -1,0 +1,17 @@
+.left{
+	margin-right: 0px;
+}
+.rightblock{
+	width: 100px;
+}
+.but{
+	position: absolute;
+	top: 0px;
+	left: 8px;	
+}
+.search input{
+	position: absolute;
+	left: 31px;
+	top: 1px;
+	width: 160px;
+}

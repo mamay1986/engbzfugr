@@ -1,0 +1,47 @@
+/*Таблица с круглишкамиb*/
+.rt
+	{empty-cells: show;}
+.rt .rt-tl
+	{width: 5px;height: 5px;background: url("/images/admin/rounds.gif") 0 0;}
+.rt .rt-tc
+	{height: 5px;}	
+.rt .rt-tr
+	{height: 5px;width: 5px;background: url("/images/admin/rounds.gif") 0px 0;}		
+.rt .rt-ml
+	{width: 5px;}
+.rt .rt-mr
+	{width: 5px;}
+.rt .rt-bl
+	{width: 5px;height: 5px;background: url("/images/admin/rounds.gif") 0 0px;}
+.rt .rt-bc
+	{height: 5px;}	
+.rt .rt-br
+	{height: 5px;width: 5px;background: url("/images/admin/rounds.gif") 0px 0px;}
+	
+.page-content
+	{margin: 20px 0;}
+.page-content .rt
+	{background: #ffffff;width: 100%;}
+.page-content .rt .rt-tl
+	{width: 5px !important;height: 5px !important;background-position: -20px 0; padding: 0px !important;}
+.page-content .rt .rt-tc
+	{height: 5px !important; padding: 0px !important; background: url("/images/admin/tables/page-content/top.gif") 0px 0px repeat-x;}	
+.page-content .rt .rt-tr
+	{width: 5px !important;height: 5px !important; padding: 0px !important; background-position: -25px 0;}
+.page-content .rt .rt-ml
+	{width: 5px; padding: 0px !important; background: url("/images/admin/tables/page-content/left.gif") 0px 0px repeat-y;}
+.page-content .rt .rt-mc
+	{padding: 20px;}	
+.page-content .rt .rt-mr
+	{width: 5px; padding: 0px !important; background: url("/images/admin/tables/page-content/right.gif") 0px 0px repeat-y;}
+.page-content .rt .rt-bl
+	{width: 5px !important;height: 5px !important; padding: 0px !important; background-position: -20px -5px;}
+.page-content .rt .rt-bc
+	{height: 5px !important; padding: 0px !important; background: url("/images/admin/tables/page-content/bot.gif") 0px 0px repeat-x;}	
+.page-content .rt .rt-br
+	{width: 5px !important;height: 5px !important; padding: 0px !important; background-position: -25px -5px;}
+
+
+#uploadList li {float: left;position: relative;padding: 2px;}
+#uploadFiles {width: 570px;}
+#uploadContainer {max-height: 88px; overflow: hidden;}

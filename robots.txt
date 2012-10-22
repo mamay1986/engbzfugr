@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+
+User-agent: Yandex
+Disallow: /admin/
+
+Sitemap: http://engels.bz/sitemap.xml
+
+Host: engels.bz
